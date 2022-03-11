@@ -1,0 +1,198 @@
+*{
+	font-family: "Josefin Sans";
+	-webkit-font-smoothing: antialiased;
+}
+body{
+    background-color:#1E013C ;
+}
+nav{
+    background-color: #1E013C;
+}
+/*     #270150    */
+.bvambient_particle
+{
+	position: absolute;
+	pointer-events: none;
+	transition: top linear, left linear;
+}
+.buttonP:hover{
+	border-radius: 5px;
+	border-color: white;
+	background-color: #1E013C;
+	color: white;
+}
+.buttonP{
+	font-size: 20px;
+	height: 70px;
+	width: 180px;
+	border-radius: 5px;
+	border-color: white;
+	background-color: white;
+	color: #1E013C;
+	font-weight: 400;
+}
+span{
+	display: block;
+	height: 100%;
+	padding-left: 10px;
+	animation: spin_words 3s infinite;
+
+}
+@keyframes spin_words{
+	0%{
+		transform: translateY(50%);
+	}
+	50%{
+		transform: translateY(-50%);
+	}
+	75%{
+		transform: translateY(-100%);
+	}
+	80%{
+		transform: translateY(-150%);
+	}
+	100%{
+		transform: translateY(-200%);
+	}
+	
+}
+.words{
+	overflow: hidden;
+}
+.passion{
+	
+	font-size: 25px;
+	
+}
+a{
+	color: white;
+	font-size: 20px;
+}
+a:hover{
+	text-decoration: underline;
+	color: white;
+}
+.aboutMe{
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+	padding: 5%;
+}
+.aboutme{
+	color:#54457F;
+	font-size: 20px;
+}
+.buttonP2{
+	font-size: 20px;
+	height: 60px;
+	width: 150px;
+	border-radius: 5px;
+	border-color: white;
+	background-color: white;
+	color: #1E013C;
+	float: right;
+}
+.buttonP2:hover{
+	border-color: white;
+	background-color: #1E013C;
+	color: white;
+	border-width: 2px;
+	font-weight: 400;
+}
+.description{
+	
+	font-family:sans-serif;
+	font-size: 16px;
+	font-weight:300;
+}
+.skills{
+	background-color: white;
+	width: 100%;
+	padding:5% 10% 5% 10%;
+}
+.skill{
+	font-size: 18px;
+	color: #1E013C;
+}
+.progress-bar, .progress{
+	border-radius: 10px;
+	height: 10px;
+	background-color: #dbd2f7;
+}
+.progress-bar{
+	background-color: #1E013C;
+}
+.skillExp{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #130127;
+    transform: scale(1.1)
+}
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 16px;
+    margin-top: 0.25em;
+	font-family: sans-serif;
+}
+.plink{
+	font-size: 16px;
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+.card-title,.purple-title{
+	color: #1E013C;;
+}
+.mail{
+	color: #1E013C;
+}
+.mail:hover{
+	color: #1E013C;
+	text-decoration: underline;
+}
+#nav ul li.current-menu-item {
+	background:#ddd
+}
