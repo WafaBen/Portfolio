@@ -4,6 +4,8 @@
 }
 body{
     background-color:#1E013C ;
+	width:100%;
+	margin: 0%;
 }
 nav{
     background-color: #1E013C;
@@ -109,6 +111,7 @@ a:hover{
 	background-color: white;
 	width: 100%;
 	padding:5% 10% 5% 10%;
+	margin: 0%;
 }
 .skill{
 	font-size: 18px;
