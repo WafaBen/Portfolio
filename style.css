@@ -1,11 +1,18 @@
 *{
 	font-family: "Josefin Sans";
 	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
 }
+
+.nav-link{
+	font-size: 23px;
+}
+
 body{
     background-color:#1E013C ;
 	width:100%;
 	margin: 0%;
+	overflow-x: hidden;
 }
 nav{
     background-color: #1E013C;
@@ -23,15 +30,20 @@ nav{
 	background-color: #1E013C;
 	color: white;
 }
-.buttonP{
-	font-size: 20px;
-	height: 70px;
-	width: 180px;
-	border-radius: 5px;
-	border-color: white;
-	background-color: white;
-	color: #1E013C;
-	font-weight: 400;
+.buttonP {
+    font-size: 20px;
+    height: 70px;
+    width: 180px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: white;
+    color: #1E013C;
+    font-weight: 400;
+    display: flex;
+    gap: 6px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
 }
 span{
 	display: block;
